@@ -1,0 +1,17 @@
+.nav-main{
+    background: linear-gradient(to right, #111637, #6122e5);
+}
+.nav-content{
+    background: #7b65ca;
+}
+
+.nav-menu{
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.nav-menu:hover{
+    color: rgb(67, 150, 245) !important;
+}
