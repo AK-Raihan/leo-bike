@@ -24,7 +24,7 @@ const Navigation = () => {
                     <NavLink to="/about" className="nav-link fs-6 fw-bold nav-menu">About</NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Products</NavLink>
+                    <NavLink to="/products" className="nav-link fs-6 fw-bold nav-menu">Products</NavLink>
                     </li>
                     <li className="nav-item">
                     <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Pages</NavLink>
