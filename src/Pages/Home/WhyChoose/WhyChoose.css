@@ -1,0 +1,20 @@
+.choose-item{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.choose-item img{
+    padding: 5px;
+    transition: 1s;
+}
+.choose-item:hover{
+    background: rgb(250, 241, 241);  
+}
+.choose-item:hover h3{
+    color: rgb(245, 121, 121);
+}
+.choose-item:hover img{
+    border: 1px solid #ddd;
+    
+}
