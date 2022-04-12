@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavTop.css'
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const NavTop = () => {
     return (
@@ -23,9 +24,10 @@ const NavTop = () => {
                     </Col>
                     <Col lg={4} md={12}>
                     <div className="login d-flex justify-content-center align-items-center">
-                        <span className='fs-3 text-white '><i className="fas fa-cart-arrow-down"></i></span>
-                        <Button className='px-5 mx-2'>Login</Button>
-                        <Button className='px-5'>Sign Up</Button>
+                        <span className='fs-3 text-white me-3'><i className="fas fa-cart-arrow-down"></i></span>
+                        <NavLink to="login">
+                        <span className='fs-3 text-white'><i class=" fas fa-solid fa-user-plus"></i></span>
+                        </NavLink>
                     </div>
                     </Col>
                 </Row>

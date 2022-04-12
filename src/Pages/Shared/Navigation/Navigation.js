@@ -33,7 +33,7 @@ const Navigation = () => {
                     <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Blogs</NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Contact</NavLink>
+                    <NavLink to="/contact" className="nav-link fs-6 fw-bold nav-menu">Contact</NavLink>
                     </li>
                 </ul>
                 </div>

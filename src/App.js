@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import About from "./Pages/Home/About/About";
+import Contact from "./Pages/Home/Contact/Contact";
 import Home from "./Pages/Home/Home/Home";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Navigation from "./Pages/Shared/Navigation/Navigation";
@@ -22,6 +23,8 @@ function App() {
       <Route path="/home" element={<Home/>}>
       </Route>
       <Route path="/about" element={<About/>}>
+      </Route>
+      <Route path="/contact" element={<Contact/>}>
       </Route>
     </Routes>
     <Footer/>
