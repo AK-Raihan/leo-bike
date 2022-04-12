@@ -4,22 +4,24 @@ import img from '../../../images/discount.webp'
 
 const Discount = () => {
     return (
-        <div>
+        <div className='py-5'>
             <div style={{ 
             backgroundImage: `url('${bg}')`,
             backgroundRepeat: 'no-repeat', 
             backgroundSize: 'cover',
+            paddingTop: '50px',
+            paddingBottom: '50px'
         
             
           }}>
-              <div className="container">
+              <div className="container py-5">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="discount-text">
                             <h4>Promotional</h4>
                             <h3>Discount</h3>
                             <h2>UP TO 35%</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form... or randomised words</p>
+                            <p>There are many variations of passages of Lorem Ipsum <br /> available, but the majority have suffered alteration in some <br /> form... or randomised words</p>
                             <button>SHOP NOW</button>
                         </div>
                     </div>
