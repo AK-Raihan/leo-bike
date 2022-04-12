@@ -5,85 +5,85 @@
       "code": 4126,
       "img" :"https://i.ibb.co/WvZfsdr/product-15.jpg",
       "name": "Mountain Bike ",
-      "price": "$20",
-      "description": "Available on Everyday"
+      "price": "$1220",
+      "description": "stock"
     },
     {
       "code": 4127,
       "img" :"https://i.ibb.co/940dZtr/product-14.jpg",
       "name": "Road Bike",
-      "price": "$50",
-      "description": "Available on Everyday"
+      "price": "$750",
+      "description": "stock"
     },
     {
       "code": 4128,
       "img" :"https://i.ibb.co/M87F0Jd/product-11.jpg",
       "name": "Transit Bike",
-      "price": "$40",
-      "description": "Available on Everyday"
+      "price": "$840",
+      "description": "sold"
     },
     {
       "code": 4129,
       "img" :"https://i.ibb.co/QQdWf0Y/product-10.jpg",
       "name": "Rollin bike",
-      "price": "$75",
-      "description": "Available on Everyday"
+      "price": "$575",
+      "description": "stock"
     },
     {
       "code": 4130,
       "img" :"https://i.ibb.co/yVDdhWq/product-9.jpg",
       "name": "Cyclocross Bike",
-      "price": "$35",
-      "description": "Available on Everyday "
+      "price": "$635",
+      "description": "stock "
     },
     {
       "code": 4131,
       "img" :"https://i.ibb.co/xXCPqp0/product-8.jpg",
       "name": "Road Bike",
-      "price": "$30",
-      "description": "Available on Everyday"
+      "price": "$530",
+      "description": "stock"
     },
     {
       "code": 4132,
       "img" :"https://i.ibb.co/KDxhRMQ/product-7.jpg",
       "name": "Folding Bike",
-      "price": "$50",
-      "description": "Available on Everyday"
+      "price": "$950",
+      "description": "sold"
     },
     {
       "code": 4133,
       "img" :"https://i.ibb.co/4FvMf7d/product-5.jpg",
       "name": "Mountain Bike",
-      "price": "$30",
-      "description": "Available on Everyday"
+      "price": "$1530",
+      "description": "sold"
     },
     {
       "code": 4134,
       "img" :"https://i.ibb.co/Gs5M0mP/product-4.jpg",
       "name": "Hybrid Bike",
-      "price": "$60",
-      "description": "Available on Everyday"
+      "price": "$860",
+      "description": "stock"
     },
     {
       "code": 4135,
       "img" :"https://i.ibb.co/GfZFrTr/product-2.jpg",
       "name": "Mountain Bike",
-      "price": "$60",
-      "description": "Available on Everyday"
+      "price": "$1360",
+      "description": "stock"
     },
     {
       "code": 4136,
       "img" :"https://i.ibb.co/t8zxBT6/product-1.jpg",
       "name": "Riding Bike",
-      "price": "$60",
-      "description": "Available on Everyday"
+      "price": "$1060",
+      "description": "stock"
     },
     {
       "code": 4137,
       "img" :"https://i.ibb.co/KDxhRMQ/product-7.jpg",
       "name": "Milding Bike",
-      "price": "$60",
-      "description": "Available on Everyday"
+      "price": "$760",
+      "description": "stock"
     }
     
 

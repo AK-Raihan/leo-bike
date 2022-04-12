@@ -1,6 +1,6 @@
 .order-btn{
-    background-color: #fb524f;
-    color: #fff;
+   
+
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 600;
@@ -8,7 +8,7 @@
     border-radius: 5px;
 }
 .order-btn:hover{
-    background-color: #bd3734;
+    background-color: #fb524f;
 }
 .price{
     background-color: #fb524f;
@@ -21,6 +21,14 @@
     display: inline-block;
 }
 .product-card{
+    padding: 20px;
     background: #fff;
     box-shadow: 3px 2px 30px #fff;
+    transition: .5s;
+}
+.product-card img{
+    border-radius: 10px;
+}
+.product-card:hover{
+    border: 1px solid #ddd;
 }
