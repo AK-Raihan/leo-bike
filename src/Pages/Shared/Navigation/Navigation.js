@@ -21,10 +21,10 @@ const Navigation = () => {
                     <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Home</NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Hosting</NavLink>
+                    <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">About</NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Domain</NavLink>
+                    <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Products</NavLink>
                     </li>
                     <li className="nav-item">
                     <NavLink to="/home" className="nav-link fs-6 fw-bold nav-menu">Pages</NavLink>

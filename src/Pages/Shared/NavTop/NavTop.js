@@ -10,7 +10,7 @@ const NavTop = () => {
                     <Col lg={4} md={12}>
                     <div className='top-contact '>
                             <span className='me-2 fs-5'> <a className='text-decoration-none text-white' href="tel:+1514312-5478"><i className="fas fa-phone-volume"></i> +1 (514) 312-5478</a></span>
-                            <span className='fs-5'> <a className='text-decoration-none text-white' href="/"><i className="fas fa-xms"></i> Live Chat</a> </span>
+                            <span className='fs-5'> <a className='text-decoration-none text-white ' href="/"><i className="fas fa-xms"></i> Live Chat</a> </span>
                         </div>
                     </Col>
                     <Col lg={4} md={12}>
