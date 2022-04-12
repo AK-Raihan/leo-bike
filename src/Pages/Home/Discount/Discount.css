@@ -1,0 +1,18 @@
+
+
+.discount-text h4{
+    color: #777777;
+    font-size: 25px;
+}
+.discount-text h3{
+    color: #444444;
+    font-size: 35px;
+}
+.discount-text h2{
+    color: #1b1b1b;
+    font-size: 40px;
+    font-weight: 700;
+}
+.discount-text p{
+    color: rgb(117, 115, 115);
+}

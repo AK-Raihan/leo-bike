@@ -23,21 +23,21 @@ const WhyChoose = () => {
                             <div className="col-lg-3">
                                 <div className="choose-item text-center p-3 mt-3">
                                     <img className='mb-4' src={item2} alt="" />
-                                    <h3>Fast Delivery</h3>
+                                    <h3>Genuine Products</h3>
                                     <p>lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                                 </div>
                             </div>
                             <div className="col-lg-3">
                                 <div className="choose-item text-center p-3 mt-3">
                                     <img className='mb-4' src={item3} alt="" />
-                                    <h3>Fast Delivery</h3>
+                                    <h3>24X7 Support</h3>
                                     <p>lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                                 </div>
                             </div>
                             <div className="col-lg-3">
                                 <div className="choose-item text-center p-3 mt-3">
                                     <img className='mb-4' src={item4} alt="" />
-                                    <h3>Fast Delivery</h3>
+                                    <h3>7 Days Return</h3>
                                     <p>lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                                 </div>
                             </div>
