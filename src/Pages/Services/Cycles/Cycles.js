@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Cycle from './Cycle/Cycle';
 
-const Products = () => {
+const Cycles = () => {
     const[cycles, setCycles]= useState([]);
 
     useEffect( ()=>{
-        fetch('./products.json')
+        fetch('http://localhost:5000/cycle')
         .then(res=>res.json())
         .then(data=>setCycles(data))
     } ,[])
@@ -29,4 +29,4 @@ const Products = () => {
     );
 };
 
-export default Products;
+export default Cycles;

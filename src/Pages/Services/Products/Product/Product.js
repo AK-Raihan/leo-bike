@@ -17,7 +17,7 @@ const Product = (props) => {
             <NavLink to={`/booking/${_id}`}>
             <button className="btn me-4 order-btn fs-5"><i className="fas fa-cart-arrow-down"></i></button>
             </NavLink>
-            <NavLink to={`/booking/${_id}`}>
+            <NavLink to={`/details/${_id}`}>
             <button className="btn  order-btn fs-5"><i class="fas fa-solid fa-arrow-right"></i></button>
             </NavLink>
       </div>

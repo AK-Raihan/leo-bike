@@ -5,6 +5,8 @@ import {
 } from "react-router-dom";
 import './App.css';
 import AuthProvider from "./Contexts/AuthProvider";
+import Booking from "./Pages/CycleDetails/Booking/Booking";
+import CycleDetals from "./Pages/CycleDetails/CycleDetails/CycleDetails";
 import About from "./Pages/Home/About/About";
 import Contact from "./Pages/Home/Contact/Contact";
 import Home from "./Pages/Home/Home/Home";
@@ -28,6 +30,10 @@ function App() {
       <Route path="/home" element={<Home/>}>
       </Route>
       <Route path="/about" element={<About/>}>
+      </Route>
+      <Route path="/booking/:id" element={<Booking/>}>
+      </Route>
+      <Route path="/details/:id" element={<CycleDetals/>}>
       </Route>
       <Route path="/contact" element={<Contact/>}>
       </Route>

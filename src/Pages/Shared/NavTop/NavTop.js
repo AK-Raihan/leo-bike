@@ -36,7 +36,7 @@ const NavTop = () => {
                             <div className=""><img className="rounded-circle user-pic" src={user?.photoURL} alt="" /></div>    
                             <NavLink to="/"><button className='btn btn-lg text-white'>Dashboard</button></NavLink>
                             <span className='fs-3 text-white me-3'><i className="fas fa-cart-arrow-down"></i></span>
-                            <button onClick={logout}>login</button>
+                            <button onClick={logout}>logout</button>
                           </div>
                           :
                           
