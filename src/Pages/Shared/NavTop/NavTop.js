@@ -34,7 +34,7 @@ const NavTop = () => {
 
                             <span className='text-white'>Hello <span className="fw-bold text-info">{user.displayName}</span> </span>
                             <div className=""><img className="rounded-circle user-pic" src={user?.photoURL} alt="" /></div>    
-                            <NavLink to="/"><button className='btn btn-lg text-white'>Dashboard</button></NavLink>
+                            <NavLink to="/dashboard"><button className='btn btn-lg text-white'>Dashboard</button></NavLink>
                             <span className='fs-3 text-white me-3'><i className="fas fa-cart-arrow-down"></i></span>
                             <button onClick={logout}>logout</button>
                           </div>

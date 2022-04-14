@@ -4,9 +4,6 @@ import useAuth from '../../../hooks/useAuth';
 import bg from '../../../images/login-bg.jpg'
 
 
-
-
-
 const Login = () => {
     const [loginData, setLoginData] = useState({});
     const {user, signInUsingGoogle, loginUser, authError, isLoading } = useAuth();
