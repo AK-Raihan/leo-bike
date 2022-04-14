@@ -16,7 +16,7 @@ const Booking = () => {
     const { user } = useAuth();
     const navigate = useNavigate();
     const [specificDetail, setSpecificDetail] = useState({});
-    const { name } = specificDetail;
+ 
     const { register, handleSubmit, reset } = useForm();
 
     useEffect(() => {
@@ -25,6 +25,8 @@ const Booking = () => {
             .then(res => res.json())
             .then(data => setSpecificDetail(data))
     }, [])
+
+    console.log(specificDetail)
 
     const onSubmit = data => {
         data.carId = id;
@@ -51,13 +53,18 @@ const Booking = () => {
                             <Col md={3} xs={12} className="pr-md-4">
                             </Col>
                             <Col md={6} xs={12} className="pr-md-4">
-                                <input className="our-form-input" type="text" {...register("CycleName", { required: true })} defaultValue={name} />
+                                <input className="our-form-input" 
+                                type="text" 
+                                {...register("product", 
+                                { required: true })} 
+                                defaultValue={specificDetail.name} />
+
                                 <label>Name</label>
                                 <input
                                     className="our-form-input"
                                     type="text"
                                     defaultValue={user.displayName}
-                                    {...register("name", { required: true })}
+                                    {...register("user", { required: true })}
                                     placeholder="Your Name"
                                 />
                                 <label>Email</label>
@@ -82,7 +89,7 @@ const Booking = () => {
                                     date="{{date}}" timezone="[[timezone]]"
                                     className="our-form-input"
                                     defaultValue=""
-                                    {...register("testDriveDate", { required: true })}
+                                    {...register("date", { required: true })}
                                     placeholder="Test Drive Date"
                                 />
                                 <textarea

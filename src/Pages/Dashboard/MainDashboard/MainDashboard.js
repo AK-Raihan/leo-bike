@@ -66,7 +66,7 @@ const MainDashboard = () => {
                         
                         </>
                         <li>
-                            <Link to="">
+                            <Link to="/">
                                 
                                 <span className="title">Back to Home</span>
                             </Link>
