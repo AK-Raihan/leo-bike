@@ -8,7 +8,7 @@ import useAuth from '../../../hooks/useAuth';
 
 
 
-const ManageAllCar = () => {
+const ManageProducts = () => {
     const [loading, setLoading] = useState(true);
     const[products, setProducts]=useState([])
     const { user } = useAuth();
@@ -76,4 +76,4 @@ console.log(products)
     );
 };
 
-export default ManageAllCar;
+export default ManageProducts;

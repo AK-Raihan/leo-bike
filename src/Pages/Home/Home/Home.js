@@ -7,6 +7,7 @@ import WhyChoose from '../WhyChoose/WhyChoose';
 import NavTop from './../../Shared/NavTop/NavTop';
 import Navigation from './../../Shared/Navigation/Navigation';
 import Footer from './../../Shared/Footer/Footer';
+import ClientReviews from '../ClientReviews/ClientReviews';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <WhyChoose/>
             <Cycles/>
             <Discount/>
+            <ClientReviews/>
             <Footer/>
             
         </div>

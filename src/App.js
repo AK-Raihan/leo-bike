@@ -10,7 +10,7 @@ import CycleDetals from "./Pages/CycleDetails/CycleDetails/CycleDetails";
 import DashboardHome from "./Pages/Dashboard/DashboardHome/DashboardHome";
 import MainDashboard from "./Pages/Dashboard/MainDashboard/MainDashboard";
 import MakeAdmin from "./Pages/Dashboard/MakeAdmin/MakeAdmin";
-import ManageProducts from "./Pages/Dashboard/ManageProducts/ManageProducts";
+
 import MyOrders from "./Pages/Dashboard/MyOrders/MyOrders";
 import Review from "./Pages/Dashboard/Review/Review";
 import About from "./Pages/Home/About/About";
@@ -24,6 +24,7 @@ import Products from "./Pages/Services/Products/Products";
 import Payment from './Pages/Dashboard/Payment/Payment';
 import ManageOrders from "./Pages/Dashboard/ManageOrders/ManageOrders";
 import AddProducts from "./Pages/Dashboard/AddProducts/AddProducts";
+import ManageProducts from './Pages/Dashboard/ManageProducts/ManageProducts';
 
 function App() {
   return (
