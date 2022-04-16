@@ -48,7 +48,7 @@ const MainDashboard = () => {
                             <li>
                                 <Link to={`/dashboard/manageProducts`}>
                                    
-                                    <span className="title">Add a Products</span>
+                                    <span className="title">Manage Products</span>
                                 </Link>
                             </li>
                             <li>
@@ -60,7 +60,7 @@ const MainDashboard = () => {
                             <li>
                                 <Link to={`/dashboard/manageOrders`}>
                                     
-                                    <span className="title">Manage All Orders</span>
+                                    <span className="title">Manage Orders</span>
                                 </Link>
                             </li>
                         

@@ -22,6 +22,7 @@ import PrivateRoute from "./Pages/Login/PrivateRoute/PrivateRoute";
 import Register from "./Pages/Login/Register/Register";
 import Products from "./Pages/Services/Products/Products";
 import Payment from './Pages/Dashboard/Payment/Payment';
+import ManageOrders from "./Pages/Dashboard/ManageOrders/ManageOrders";
 
 function App() {
   return (
@@ -47,10 +48,13 @@ function App() {
         <MainDashboard/>
       </PrivateRoute>}>
 
-      <Route exact path='/dashboard' element={<DashboardHome></DashboardHome>}>
+      <Route path='/dashboard' element={<DashboardHome></DashboardHome>}>
           
         </Route>
         <Route path={`/dashboard/myOrders`} element={<MyOrders></MyOrders>}>
+          
+        </Route>
+        <Route path={`/dashboard/manageOrders`} element={<ManageOrders></ManageOrders>}>
           
         </Route>
         <Route path={`/dashboard/payment`} element={<Payment></Payment>}>
