@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 
 import './MainDashboard.css';
+import useAuth from './../../../hooks/useAuth';
 
 
 
 
 const MainDashboard = () => {
-
- 
+    const {admin} = useAuth()
     const [isActive, setActive] = useState(false);
     const handleToggle = () => {
         setActive(!isActive)
@@ -44,7 +44,9 @@ const MainDashboard = () => {
                                 </Link>
                             </li>
                         </>
-                         <>
+
+                        {
+                            admin && <>
                             <li>
                                 <Link to={`/dashboard/manageProducts`}>
                                    
@@ -65,6 +67,9 @@ const MainDashboard = () => {
                             </li>
                         
                         </>
+                        }
+                         
+
                         <li>
                             <Link to="/">
                                 

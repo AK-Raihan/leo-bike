@@ -26,7 +26,7 @@ const Register = () => {
     }
 
     const handleLoginSubmit = e => {
-        registerUser(loginData.email, loginData.password, navigate);
+        registerUser(loginData.email, loginData.password,loginData.name, navigate);
         e.preventDefault();
     }
     return (
@@ -55,6 +55,7 @@ const Register = () => {
                         <button onClick={handleGoogle} className='btn btn-outline-info w-100 rounded-pill mb-2'>Continue With Google</button>
                         <h6>Bellow The Olternative Way</h6>
                         <form onSubmit={handleLoginSubmit}>
+                            <input onBlur={handleOnBlur} name="name" className='form-control my-3 rounded-pill' type="text" placeholder='Your Name' />
                             <input onBlur={handleOnBlur} name="email" className='form-control my-3 rounded-pill' type="email" placeholder='Email' />
                             <input onBlur={handleOnBlur} name="password" className='form-control my-3 rounded-pill' type="password" placeholder='Password' />
                             <input className='btn btn-dark w-100 btn-outline-secondary text-white rounded-pill' type="submit" value="Register" />
