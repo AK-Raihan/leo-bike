@@ -48,9 +48,21 @@ const MainDashboard = () => {
                         {
                             admin && <>
                             <li>
+                                <Link to={`/dashboard/manageOrders`}>
+                                    
+                                    <span className="title">Manage Orders</span>
+                                </Link>
+                            </li>
+                            <li>
                                 <Link to={`/dashboard/manageProducts`}>
                                    
                                     <span className="title">Manage Products</span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to={`/dashboard/addProduct`}>
+                                   
+                                    <span className="title">Add Product</span>
                                 </Link>
                             </li>
                             <li>
@@ -59,12 +71,7 @@ const MainDashboard = () => {
                                     <span className="title">Make Admin</span>
                                 </Link>
                             </li>
-                            <li>
-                                <Link to={`/dashboard/manageOrders`}>
-                                    
-                                    <span className="title">Manage Orders</span>
-                                </Link>
-                            </li>
+                            
                         
                         </>
                         }

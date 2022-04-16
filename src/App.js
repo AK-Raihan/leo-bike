@@ -23,6 +23,7 @@ import Register from "./Pages/Login/Register/Register";
 import Products from "./Pages/Services/Products/Products";
 import Payment from './Pages/Dashboard/Payment/Payment';
 import ManageOrders from "./Pages/Dashboard/ManageOrders/ManageOrders";
+import AddProducts from "./Pages/Dashboard/AddProducts/AddProducts";
 
 function App() {
   return (
@@ -65,6 +66,9 @@ function App() {
         </Route>
         <Route path="/dashboard/makeAdmin" element={<AdminRoute>
             <MakeAdmin></MakeAdmin>
+       </AdminRoute>} />
+        <Route path="/dashboard/addProduct" element={<AdminRoute>
+            <AddProducts></AddProducts>
        </AdminRoute>} />
         <Route path="/dashboard/makeAdmin" element={<AdminRoute>
             <MakeAdmin></MakeAdmin>
