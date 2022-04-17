@@ -29,7 +29,7 @@ const Discount = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="discount-img">
+                        <div className="discount-img mt-4">
                             <img className='img-fluid' src={img} alt="" />
                         </div>
                     </div>

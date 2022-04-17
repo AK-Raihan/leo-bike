@@ -41,6 +41,24 @@ const ClientReviews = () => {
         initialSlide: 0,
         prevArrow: <SlickArrowLeft />,
         nextArrow: <SlickArrowRight />,
+        responsive: [
+            
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
     return (
         <div className="client-reviews py-5" id="reviews">
