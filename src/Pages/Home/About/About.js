@@ -2,10 +2,15 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import bg from '../../../images/about-bg (2).jpg'
 import img from '../../../images/about.jpg';
+import Footer from '../../Shared/Footer/Footer';
+import Navigation from '../../Shared/Navigation/Navigation';
+import NavTop from '../../Shared/NavTop/NavTop';
 
 const About = () => {
     return (
         <div>
+            <NavTop/>
+            <Navigation/>
             <div style={{ 
             backgroundImage: `url('${bg}')`,
             backgroundRepeat: 'no-repeat', 
@@ -38,6 +43,7 @@ const About = () => {
             </div>
         </div>
     </div>
+    <Footer/>
         </div>
     );
 };

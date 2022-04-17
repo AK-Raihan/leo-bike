@@ -11,7 +11,7 @@ const WhyChoose = () => {
             <div className="choose-main py-5">
                 <div className="container">
                     <div className="choose-title text-center">
-                        <h2 className='mb-5'>Why choose us</h2>
+                        <h2 className='mb-5 fw-bolder'>Why <span className='text-danger'>choose us</span></h2>
                         <div className="row">
                             <div className="col-lg-3">
                                 <div className="choose-item text-center p-3 mt-3">

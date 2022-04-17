@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import bg from '../../../images/bg1.png'
 import img from '../../../images/discount.webp'
 import './Discount.css'
@@ -22,7 +23,9 @@ const Discount = () => {
                             <h3>Discount</h3>
                             <h2>UP TO 35%</h2>
                             <p>There are many variations of passages of Lorem Ipsum <br /> available, but the majority have suffered alteration in some <br /> form... or randomised words</p>
+                            <NavLink to="/products">
                             <button className='btn btn-lg btn-outline-secondary'>SHOP NOW</button>
+                            </NavLink>
                         </div>
                     </div>
                     <div className="col-lg-6">

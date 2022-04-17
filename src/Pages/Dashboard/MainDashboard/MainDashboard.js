@@ -3,6 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 import './MainDashboard.css';
 import useAuth from './../../../hooks/useAuth';
+import ProfilePopper from '../../ProfilePropper/ProfilePropper';
 
 
 
@@ -98,7 +99,7 @@ const MainDashboard = () => {
                             </label>
                         </div>
                         <div className="user">
-                            <p>ProfilePopper</p>
+                            <ProfilePopper/>
                         </div>
                     </div>
                     {/* cards */}

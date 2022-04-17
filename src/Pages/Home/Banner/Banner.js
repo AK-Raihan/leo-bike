@@ -6,8 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-// import "./Banner.css";
+import "./Banner.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
@@ -15,6 +14,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import slider1 from '../../../images/background (2).jpg'
 import slider2 from '../../../images/backgraound.jpeg'
 import slider3 from '../../../images/background (3).jpg'
+import { NavLink } from "react-router-dom";
 
 export default function Banner() {
   return (
@@ -42,9 +42,16 @@ export default function Banner() {
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             paddingTop: "350px",
-            paddingBottom: "350px"
+            paddingBottom: "350px",
+            
           }}>
-            <h2>bg1</h2>
+            <div className="banner-text">
+            <h6>For A Better Ride</h6>
+            <h2>Find Your <span className="text-info">Mountain</span> Bike</h2>
+            <NavLink to="/products">
+            <button className="btn btn-lg btn-outline-info text-white">SHOP NOW</button>
+            </NavLink>
+            </div>
           </div>
           
         </SwiperSlide>
@@ -59,7 +66,13 @@ export default function Banner() {
             paddingTop: "350px",
             paddingBottom: "350px"
           }}>
-            <h2>bg2</h2>
+            <div className="banner-text">
+            <h6>For A Better Ride</h6>
+            <h2>Best <span className="text-info">Cycing</span> Experience  </h2>
+            <NavLink to="/products">
+            <button className="btn btn-lg btn-outline-info text-white">SHOP NOW</button>
+            </NavLink>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -73,7 +86,13 @@ export default function Banner() {
             paddingTop: "350px",
             paddingBottom: "350px"
           }}>
-            <h2>bg3</h2>
+            <div className="banner-text">
+            <h6>For A Better Ride</h6>
+            <h2>Find Your <span className="text-info">Mountain</span> Bike</h2>
+            <NavLink to="/products">
+            <button className="btn btn-lg btn-outline-info text-white">SHOP NOW</button>
+            </NavLink>
+            </div>
           </div>
         </SwiperSlide>
       </Swiper>

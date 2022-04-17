@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../../../images/logo.jpg'
 import bg from '../../../images/footer-bg.jpg'
-
+import './Footer.css'
+import ScrollToTop from "react-scroll-to-top";
 
 
 const Footer = () => {
@@ -14,7 +15,8 @@ const Footer = () => {
             paddingBottom: '50px'
             
           }}>
-              <div className=' pt-5'>
+              <ScrollToTop smooth top="1000" />
+            <div className=' pt-5'>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3">
@@ -26,7 +28,7 @@ const Footer = () => {
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         </p>
-                        <div className="social-menu d-flex list-unstyled justify-content-start ">                  
+                        <div className="social-menu footer-menu d-flex list-unstyled justify-content-start ">                  
                         <li><i className="fab fa-facebook-square"></i></li>
                         <li><i className="fab fa-twitter-square"></i></li>
                         <li><i className="fab fa-instagram-square"></i></li>

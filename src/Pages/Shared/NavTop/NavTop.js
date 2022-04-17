@@ -3,17 +3,18 @@ import './NavTop.css'
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import useAuth from './../../../hooks/useAuth';
+import ProfilePopper from '../../ProfilePropper/ProfilePropper';
 
 const NavTop = () => {
-    const {user, logout}= useAuth();
+    const {user}= useAuth();
     return (
         <div className='navtop-main'>
             <Container>
                 <Row className='d-flex justify-content-center align-items-center py-3'>
                     <Col lg={4} md={12}>
                     <div className='top-contact '>
-                            <span className='me-2 fs-5'> <a className='text-decoration-none text-white' href="tel:+1514312-5478"><i className="fas fa-phone-volume"></i> +1 (514) 312-5478</a></span>
-                            <span className='fs-5'> <a className='text-decoration-none text-white ' href="/"><i className="fas fa-xms"></i> Live Chat</a> </span>
+                            <span className='me-2 fs-5'> <a className='text-decoration-none text-dark ' href="tel:+1514312-5478"><i className="fas fa-phone-volume"></i> +1 (514) 312-5478</a></span>
+                            <span className='fs-5'> <a className='text-decoration-none text-dark ' href="/"><i className="fas fa-xms"></i> Live Chat</a> </span>
                         </div>
                     </Col>
                     <Col lg={4} md={12}>
@@ -28,20 +29,18 @@ const NavTop = () => {
                     
                     <Col lg={4} md={12}>
                     <div className="login d-flex justify-content-center align-items-center">
+                    <span className='fs-3  me-3 cart-icon'><i className="fas fa-cart-arrow-down"></i></span>
                         
                         {
                             user?.email ? <div className=" d-flex justify-content-center align-items-center w-100">
 
-                            <span className='text-white'>Hello <span className="fw-bold text-info">{user.displayName}</span> </span>
-                            <div className=""><img className="rounded-circle user-pic" src={user?.photoURL} alt="" /></div>    
-                            <NavLink to="/dashboard"><button className='btn btn-lg text-white'>Dashboard</button></NavLink>
-                            <span className='fs-3 text-white me-3'><i className="fas fa-cart-arrow-down"></i></span>
-                            <button onClick={logout}>logout</button>
+                                
+                            <NavLink to="/dashboard"><button className='btn btn-lg '>Dashboard</button></NavLink>
+                            <ProfilePopper/>
                           </div>
                           :
-                          
                         <NavLink to="login">
-                        <span className='fs-3 text-white'><i class=" fas fa-solid fa-user-plus"></i></span>
+                        <span className='fs-4 text-dark'><i class=" fas fa-solid fa-user-plus"></i></span>
                         </NavLink>
                         }
                         

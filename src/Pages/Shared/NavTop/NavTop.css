@@ -1,5 +1,5 @@
 .navtop-main{
-    background: linear-gradient(to left, #1b1919, #4b4a4a);
+    background: linear-gradient(to right, #6d6d6d, #f8e7e7);
 }
 .social-menu{
     margin-bottom: 15px;
@@ -15,7 +15,7 @@
     
 }
 .social-menu li i{
-    background: #34abeb;
+    background: dark;
     padding: 10px;
     color: #fff;
     border-radius: 5px;
@@ -31,4 +31,8 @@
 .user-pic{
     width: 60px;
     margin: 0 10px;
+}
+.cart-icon{
+    
+    cursor: pointer;
 }

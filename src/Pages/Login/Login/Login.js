@@ -40,7 +40,7 @@ const Login = () => {
                 <div className='text-center text-white'>
                 <h1 >Account</h1>
                 <NavLink className='text-white text-decoration-none fw-bold' to="/">Home</NavLink> /
-                <NavLink className='text-white text-decoration-none fw-bold' to="login">Account</NavLink>
+                <span className='text-white text-decoration-none fw-bold' >Account</span>
                 </div>
             </div>
 

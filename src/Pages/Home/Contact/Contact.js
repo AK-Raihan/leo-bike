@@ -1,13 +1,17 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
+import Navigation from '../../Shared/Navigation/Navigation';
+import NavTop from '../../Shared/NavTop/NavTop';
 import './Contact.css'
 
 
 const Contact = () => {
   
     return (
-        <div className='py-5'>
-
-            <div className="container">
+        <div className=''>
+            <NavTop/>
+            <Navigation/>
+            <div className="container py-5">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="contact-info">
@@ -51,7 +55,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-
+            <Footer/>
         </div>
     );
 };

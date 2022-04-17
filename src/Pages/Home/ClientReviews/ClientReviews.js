@@ -44,8 +44,8 @@ const ClientReviews = () => {
     };
     return (
         <div className="client-reviews py-5" id="reviews">
-            <div className="container">
-                <h2>Visitors Feedback</h2>
+            <div className="container text-center">
+                <h2 className='fw-bolder'>Visitors <span className='text-danger'>Feedback</span></h2>
                 {loading && <Spinner animation="border" variant="danger" /> }
                 <Slider {...settings}>
                     {
