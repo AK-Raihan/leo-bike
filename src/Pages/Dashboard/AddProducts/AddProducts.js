@@ -39,7 +39,7 @@ const AddProducts = () => {
             details: data.details
         }
         console.log(serviceInfo)
-        axios.post('http://localhost:5000/product', serviceInfo)
+        axios.post('https://intense-headland-61150.herokuapp.com/product', serviceInfo)
             .then(res => {
                 if (res.data.insertedId) {
                     toast.success('Added', {

@@ -5,7 +5,7 @@ const Cycles = () => {
     const[cycles, setCycles]= useState([]);
 
     useEffect( ()=>{
-        fetch('http://localhost:5000/cycle')
+        fetch('https://intense-headland-61150.herokuapp.com/cycle')
         .then(res=>res.json())
         .then(data=>setCycles(data))
     } ,[])

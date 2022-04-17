@@ -17,7 +17,7 @@ const ManageProducts = () => {
     console.log(email);
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/products`)
+        fetch(`https://intense-headland-61150.herokuapp.com/products`)
         .then(res=>res.json())
         .then(data=>setProducts(data));
     },[]);
@@ -25,7 +25,7 @@ const ManageProducts = () => {
 
 console.log(products)
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/product/${id}`, {
+        fetch(`https://intense-headland-61150.herokuapp.com/product/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

@@ -14,7 +14,7 @@ const CycleDetals = () => {
 
     const navigate = useNavigate();
     useEffect(() => {
-        const url = `http://localhost:5000/singleCycle/${id}`
+        const url = `https://intense-headland-61150.herokuapp.com/singleCycle/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setSpecificCar(data))

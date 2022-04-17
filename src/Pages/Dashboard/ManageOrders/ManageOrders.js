@@ -10,7 +10,7 @@ const ManageOrders = () => {
     const [booking, setBooking] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('http://localhost:5000/myOrders')
+        fetch('https://intense-headland-61150.herokuapp.com/myOrders')
             .then(res => res.json())
             .then(data => {
                 setBooking(data)
@@ -30,7 +30,7 @@ const ManageOrders = () => {
         }).then(wantDelete => {
             if (wantDelete) {
                 const loadingId = toast.loading("Deleting...");
-                const url = `http://localhost:5000/delteOrder/${id}`
+                const url = `https://intense-headland-61150.herokuapp.com/delteOrder/${id}`
                 fetch(url, {
                     method: 'DELETE'
                 })
@@ -66,7 +66,7 @@ const ManageOrders = () => {
 
         const modifiedStatus = { id, status }
 
-        axios.patch(`http://localhost:5000/orders/${id}`, modifiedStatus)
+        axios.patch(`https://intense-headland-61150.herokuapp.com/orders/${id}`, modifiedStatus)
             .then(res => res.data && toast.success(`Set to ${status}`))
             .catch(error => alert(error.message))
     }

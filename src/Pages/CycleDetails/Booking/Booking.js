@@ -20,7 +20,7 @@ const Booking = () => {
     const { register, handleSubmit, reset } = useForm();
 
     useEffect(() => {
-        const url = `http://localhost:5000/singleCycle/${id}`
+        const url = `https://intense-headland-61150.herokuapp.com/singleCycle/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setSpecificDetail(data))
@@ -32,7 +32,7 @@ const Booking = () => {
         data.carId = id;
         data.status = "pending";
         data.orderTime = new Date().toLocaleDateString('en-GB');
-        axios.post('http://localhost:5000/confirmOrder', data)
+        axios.post('https://intense-headland-61150.herokuapp.com/confirmOrder', data)
             .then(res => {
                 if (res.data.insertedId) {
                     toast.success('Booking Succesful')
